@@ -1,0 +1,84 @@
+/*Estilos para la página index.html*/
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/background.png) no-repeat;
+    background-size: cover;
+}
+
+video {
+    display: block;
+}
+
+@media screen and (max-device-width: 800px) {
+
+    html{
+     height:100%;
+     min-height:100%;
+     width: 100%;
+     min-width: 100%;
+     }
+
+    body {
+        background-image: url(../img/background.png);
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-position: center center;
+        background-attachment: fixed;   /*#000 no-repeat center center fixed;*/
+        background-size: 100%;
+        display: flex;
+        min-height: 100%;
+        min-width: 100%;
+    }
+    .intro {
+        vertical-align: center;
+        line-height: 40px;
+        display: none;
+    }
+    #bgvid {
+        display: none;
+    }
+    
+
+    
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+    
+    display: flex;
+    align-items: center;
+}
+
+.navbar.navbar-default {
+    background: transparent !important;
+    border: none;
+}
+
+.btn-default {
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    font-size: 1.3em;
+    font-style: bolder;
+}
+
+/*Alineación dela foto del folículo piloso*/
+

@@ -1,0 +1,125 @@
+/* Estilos generales */
+ 
+ body {
+ 	font: 1.6em 'Droid Sans', sans-serif !important;
+ }
+
+
+/* Estilo para los títulos */
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+ 	font-family: 'Oswald', sans-serif !important;
+ 	color: #e51a37 !important;
+ 	text-align: center !important;
+ 	text-transform: uppercase !important;
+ 	line-height: 2em !important;
+ }
+
+ /* Interlineado en párrafos */
+
+ p {
+ 	line-height: 2em;
+ }
+
+ /* Interlineado en las listas */
+
+ li {
+ 	line-height: 1.6em;
+ }
+
+
+ /* Header */
+
+ /* Reducir el logo el 35% de su valor original */
+
+#logo {
+	min-width: 230px;
+}
+
+ #navegacion {
+ 	background-color: #165679;
+ }
+
+
+ /* Menú de navegación */
+
+ 
+ /* Color de fondo */
+
+#menu-navegacion nav {
+	background-color: #165679;
+	border-color: #165679;
+}
+
+/* Padding arriba */
+
+#menu-navegacion {
+	padding-top: 3%;
+}
+
+/* Enlaces del menú*/
+
+#menu-navegacion a {
+	color: white;
+	font: bold 1.1em 'Oswald', sans-serif;
+	text-transform: uppercase;
+	background-color: #165679;
+}
+
+#menu-navegacion .active a {
+	color: #e51a37;
+}
+
+
+
+/* SEGUNDO CONTENEDOR */
+
+.contenedor-2 {
+	padding: 6% 0;
+}
+
+#primer-texto-celular,
+#segundo-texto-celular,
+#tercer-texto-celular {
+	padding-bottom: 10%;
+}
+
+
+/* TERCER CONTENEDOR */
+
+.contenedor-3 {
+	border-top: 10px solid #165679;
+	border-bottom: 10px solid #165679;
+}
+
+/* CUARTO CONTENEDOR */
+
+#texto-antes,
+#texto-despues {
+	padding-top: 20%;
+}
+
+#texto-antes-celular,
+#texto-despues-celular {
+	padding-top: 35%;
+}
+
+/*Diseño y color del footer*/
+
+.footer {
+    background-color: #165679;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Foto principal en la página de inicio */
+
+#pool {
+	padding-bottom: 3%;
+}

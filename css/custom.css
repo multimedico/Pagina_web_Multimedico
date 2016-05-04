@@ -1,0 +1,227 @@
+/*Estilos para la página inicio.html*/
+/*Color de fondo del body
+
+body {
+    background-color: #747577;
+}*/
+/*
+body {
+  /*background: -webkit-linear-gradient(#577FF5, #FFFFFF); /* For Safari 5.1 to 6.0*/
+/*background: -o-linear-gradient(#577FF5, #FFFFFF); /* For Opera 11.1 to 12.0 */
+/*background: -moz-linear-gradient(#577FF5, #FFFFFF); /* For Firefox 3.6 to 15 */
+/*background: linear-gradient(#577FF5, #FFFFFF); /* Standard syntax */
+/*}*/
+
+body {
+    background-color: #F2F1ED;
+}
+
+
+/*Color de fondo del contenedor
+
+.container {
+    background-color: #FFFFFF;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}*/
+
+.container {
+    background-color: #F2F1ED;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+/*Color de fondo de la barra de navegación*/
+
+.navbar-header {
+    /*background-color: #00D8E9;*/
+    /*background-color: #737340;*/
+    
+    background-color: #F2F1ED;
+}
+
+.menu {
+    /*background-color: #00D8E9;*/
+    /*background-color: #737340;*/
+    
+    background-color: #F2F1ED;
+}
+
+.navbar-collapse {
+    /*background-color: #00D8E9;*/
+    /*background-color: #737340;*/
+    
+    background-color: #F2F1ED;
+}
+
+.navbar-default .navbar-nav > li > a {
+    /*color: #000;*/
+    
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    /*color: #FFFFFF;*/
+    
+    color: #FFF;
+    /*background-color: #00D8E9;*/
+    /*background-color: #737340;*/
+    
+    background-color: #DE5A51;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    /*color: #FFF;*/
+    
+    color: #FFFFFF;
+    /*background-color: #00D8E9;*/
+    /*background-color: #737340;*/
+    
+    background-color: #0E75AD;
+}
+
+
+/*Fuente para el texto*/
+
+p,
+address,
+span,
+.listado {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+}
+
+.lista-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+}
+/*Fuente para el menú
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    background-color: #E5E140;
+    font-family: 'Vollkorn', serif !important;
+    font-weight: bold; 
+}*/
+
+.navbar-default .navbar-nav > li > a {
+    /*color: #000;*/
+    
+    color: #FFFFFF;
+    /*background-color: #C3C390;*/
+    
+    background-color: #000000;
+    font-family: 'Vollkorn', serif !important;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.navbar-default {
+    border: 0;
+}
+/*Color de fondo los enlaces desplegables */
+
+ul.dropdown-menu > li > a{
+    background-color: #F2F1ED;
+    font-family: 'Vollkorn' !important;
+    font-weight: bold;
+}
+/*Color de los enlaces en el menú desplegable*/
+
+.dropdown-menu > li > a:hover {
+    background-color: #DE5A51;
+    color: #FFF;
+}
+
+
+/*Color de los enlaces en el menú desplegable*/
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #DE5A51;    
+}
+
+
+
+.dropdown-menu {
+    background-color: transparent;
+}
+
+
+/*Diseño y color del footer*/
+
+.footer {
+    /*background-color: #00D8E9;*/
+    /*background-color: #737340;*/
+    
+    background-color: #0E75AD;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Espaciado entre filas*/
+
+.espacio {
+    margin-bottom: 30px;
+}
+/*Fuente para los títulos*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Amaranth', sans-serif;
+    color: #DE5A51;
+}
+
+/*Subindice para el texto CO2*/
+
+.subindice {
+    vertical-align: sub;
+    font-size: 70%;
+}
+
+/*Tamaño del contenedor para el enlace del subindice*/
+
+.enlace-sub {
+    height: 50px;
+}
+
+.navbar .nav {
+  float:none;
+  display:inline-block;
+  /*display:inline; /* ie7 fix */
+  /*zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-default {
+  text-align:center;
+}
+
+/*Estilo para los títulos del panel*/
+
+h3.panel-title {
+    color: #DE5A51;
+}
+
+/*Tamaño de las imágenes de las redes sociales en dispositivos menores a 800px*/
+@media screen and (max-device-width: 800px) {
+    .imagen-dispositivo { 
+        max-width: 40px !important;
+    }
+}
+
+.justificado {
+    text-align: justify;
+}

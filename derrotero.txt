@@ -1,0 +1,62 @@
+##############################
+# Enfoque página Multimédico #
+##############################
+
+La empresa Multimédico SAS se dedica a la comercialización de productos ortopédicos, productos de wellness y medicina deportiva. 
+
+########################
+# Potenciales clientes #
+########################
+
+Se identifican tres tipos de clientes potenciales:
+
+	* Mujeres entre 30 y 50 años
+	* Médicos, principalmente ortopédicos
+	* Cosmetólogos
+
+#######################
+# Estructura de menús #
+#######################
+
+	* Inicio
+		- Breve descripción de la empresa 
+
+	* Quiénes somos
+		- Una descripción más concisa
+
+	* Valores
+		- Misión
+		- Visión
+		- Otros valores corporativos
+
+	* Líneas de negocio
+		-Ortopedia
+		- Wellness
+			+ Bodyreg
+		-Medicina deportiva
+
+	* Contacto
+
+######################
+# Colores a utilizar #
+######################
+
+El sitio web pictaculous.com sugiere la siguiente paleta de colores de acuerdo al logo:
+
+#00D8E9 - azul claro
+#747577 - gris
+#000000 - negro
+#E02835 - rojo
+#E5E140 - amarillo
+
+######################
+# Fuentes a utilizar #
+######################
+
+Para los títulos - Amaranth
+Para los párrafos - Open Sans
+Para los elementos de menú - Vollkorn										
+
+
+
+
