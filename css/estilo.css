@@ -123,3 +123,15 @@
 #pool {
 	padding-bottom: 3%;
 }
+
+/* Separación del contenedor de los thumbnails respecto a la ducha */
+
+#thumbnails {
+	margin-top: 5%;
+}
+
+/* Tamaño de la imagen de la ducha */
+
+#acople_ducha {
+	max-width: 200px;
+}
