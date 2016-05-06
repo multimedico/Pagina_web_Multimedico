@@ -135,3 +135,9 @@
 #acople_ducha {
 	max-width: 200px;
 }
+
+/* Expansión del banner a lo largo de toda la página */
+
+.banner {
+	width: 100%;
+}
